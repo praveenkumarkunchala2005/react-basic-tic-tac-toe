@@ -4,7 +4,7 @@ import './index.css';
 function Square({ value, onSquareClick }) {
   return (
     <button
-      className="border-2 border-regal-blue w-full aspect-square text-5xl flex items-center justify-center"
+      className="border-2 border-regal-blue w-full aspect-square md:text-5xl lg:text-8xl flex items-center justify-center"
       onClick={onSquareClick}
     >
       {value}
